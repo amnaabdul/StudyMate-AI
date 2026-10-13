@@ -12,6 +12,66 @@ A local PDF study assistant that turns lecture notes into summaries, searchable 
 - **Flashcards:** generate 3, 5, or 10 question-and-answer cards, reveal answers, navigate cards, and track learned/unlearned progress.
 - **Saved decks:** reload the latest saved flashcard deck for a PDF without generating it again. Decks and learning progress survive application restarts.
 
+## Application Screenshots
+
+Real captures of StudyMate AI using a synthetic database and SQL lecture PDF (`StudyMate_AI_Test_Lecture.pdf`). The examples below show the existing interface and generated study material.
+
+### Main interface and PDF upload
+
+Upload a PDF and view its file details in the purple study interface.
+
+![StudyMate AI main interface with the synthetic lecture PDF uploaded](<docs/screenshots/Main Interface.png>)
+
+### AI lecture summarizer
+
+Generate a study summary covering database concepts, SQL, keys, normalization, and transactions.
+
+![AI-generated summary of synthetic database and SQL lecture notes](<docs/screenshots/AI Summarizer.png>)
+
+### Flashcard generation and review
+
+Generate a five-card deck and navigate the questions during review.
+
+![Five generated database flashcards with a review question and navigation controls](docs/screenshots/Flashcards.png)
+
+### Saved flashcards and learned progress
+
+Reload saved cards and track learning progress. This capture shows two of five cards marked learned.
+
+![Saved flashcard deck with two of five cards learned and three cards remaining](docs/screenshots/MarkedFlashcards.png)
+
+### Multiple-choice quiz generation
+
+Practice with generated questions about databases and primary keys.
+
+![Generated multiple-choice quiz showing database and primary-key questions](<docs/screenshots/Quiz Generator.png>)
+
+### Semantic search and PDF sources
+
+Search the document and inspect relevant passages, similarity scores, and actual PDF page numbers.
+
+![Semantic search for what is database with ranked PDF passages and page references](<docs/screenshots/Semantic Search.png>)
+
+### Quiz results and explanations
+
+Review the score, correct answers, explanations, and options to retry or download results.
+
+![Completed synthetic quiz with a score of four out of five and answer explanations](<docs/screenshots/Quiz Results.png>)
+
+### Study progress dashboard
+
+View saved quiz metrics and attempt history. This capture shows one synthetic attempt; multiple attempts are needed to display a progress trend.
+
+![Study Progress Tracker showing one saved attempt with an eighty percent score and attempt history](<docs/screenshots/Study Progress.png>)
+
+### AI question answering
+
+Read a PDF-based answer and inspect the retrieved source page references.
+
+![Local AI answer explaining databases with PDF sources listed on page one](<docs/screenshots/AI Answers.png>)
+
+See the [screenshot review notes](docs/screenshots/README.md) for capture details.
+
 ## Technology stack
 
 | Component | Technology |
