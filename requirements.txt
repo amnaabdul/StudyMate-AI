@@ -1,0 +1,8 @@
+# Direct dependencies pinned to the versions used for local stabilization.
+# Python 3.12; SQLite and unittest are included in the standard library.
+streamlit==1.65.0
+PyMuPDF==1.28.2
+sentence-transformers==6.1.0
+numpy==2.5.3
+pandas==3.0.6
+requests==2.34.2
